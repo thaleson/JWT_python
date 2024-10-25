@@ -1,0 +1,41 @@
+# Python
+*.py[cod]      # Arquivos de cache e bytecode
+__pycache__/   # Diretório de cache
+*.pyo          # Arquivos otimizados
+*.pyd          # Arquivos Python em binários
+
+# Envs e configurações
+.env           # Arquivo de variáveis de ambiente
+.venv/         # Ambiente virtual (ou venv/)
+venv/
+env/
+
+# Editor
+.vscode/       # Configurações do VS Code
+.idea/         # Configurações do PyCharm/IntelliJ
+*.swp          # Arquivos temporários do Vim
+
+# Sistema operacional
+.DS_Store      # Arquivo do macOS
+Thumbs.db      # Arquivo do Windows
+
+# Logs 
+*.log          # Arquivos de log
+
+# Flask
+instance/      # Diretório instance (configurações específicas de deploy)
+*.sqlite3      # Arquivos de banco de dados SQLite
+*.db           # Arquivos de banco de dados
+
+# Arquivos de configuração e compilação
+*.bak          # Arquivos de backup
+*.tmp          # Arquivos temporários
+
+# Arquivos front-end
+node_modules/  # Diretório do Node.js se você usar Node para dependências front-end
+dist/          # Diretório de distribuição para build de frontend (se aplicável)
+
+
+
+# Outros
+*.egg-info/    # Informações de pacotes Python
